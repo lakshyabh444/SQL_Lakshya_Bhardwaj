@@ -31,8 +31,8 @@ public class CRUD_Test {
 public static void main(String[] args) {
 	CRUD_Test objTest=new CRUD_Test();
         //insert data
-	objTest.create_data("1", "jinu", "jinu@gmail.com");
-	objTest.create_data("2", "jawad", "jawad@gmail.com");
+	objTest.create_data("1", "lucky", "lucky@gmail.com");
+	objTest.create_data("2", "jinu", "jinu@gmail.com");
         //read data
 	objTest.read_data("2");
         //update data
