@@ -6,30 +6,30 @@ db.Students.find().pretty()
   name: 'Lakshya Sachin Bhardwaj',
   location: 'Indore'
 }
--- db.Students.updateOne({name:'Shubham Raj Sharma'}, {$set:{'name':'Shubh'})
+-- db.Students.updateOne({name:'Lakshya Sachin Bhardwaj'}, {$set:{'name':'Lakshya'})
 -- SyntaxError: Unexpected token, expected "," (1:73)
 
--- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({name[33m:[39m[32m'Shubham Raj Sharma'[39m}[33m,[39m {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Shubh'[39m})
+-- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({name[33m:[39m[32m'Lakshya Sachin Bhardwaj'[39m}[33m,[39m {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Lakshya'[39m})
 --  [90m   |[39m                                                                          [31m[1m^[22m[39m[0m
--- db.Students.updateOne({'name':'Shubham Raj Sharma'}, {$set:{'name':'Shubh'})
+-- db.Students.updateOne({'name':'Lakshya Sachin Bhardwaj'}, {$set:{'name':'Lakshya'})
 -- SyntaxError: Unexpected token, expected "," (1:75)
 
--- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Shubham Raj Sharma'[39m}[33m,[39m {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Shubh'[39m})
+-- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Shubham Raj Sharma'[39m}[33m,[39m {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Lakshya'[39m})
 --  [90m   |[39m                                                                            [31m[1m^[22m[39m[0m
 -- db.Students.updateOne({'name':'Shubham Raj Sharma'} {$set:{'name':'Shubh'})
 -- SyntaxError: Unexpected token, expected "," (1:52)
 
--- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Shubham Raj Sharma'[39m} {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Shubh'[39m})
+-- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Lakshya Sachin Bhardwaj'[39m} {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Lakshya'[39m})
 --  [90m   |[39m                                                     [31m[1m^[22m[39m[0m
--- db.Students.updateOne({'name':'Shubham Raj Sharma'},{$set:{'name':'Shubh'})
+-- db.Students.updateOne({'name':'Lakshya Sachin Bhardwaj'},{$set:{'name':'Lakshya'})
 -- SyntaxError: Unexpected token, expected "," (1:74)
 
--- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Shubham Raj Sharma'[39m}[33m,[39m{$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Shubh'[39m})
+-- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Lakshya Sachin Bhardwaj'[39m}[33m,[39m{$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Lakshya'[39m})
 --  [90m   |[39m                                                                           [31m[1m^[22m[39m[0m
 -- db.Students.updateOne({name:'Shubham Raj Sharma'},{$set:{'name':'Shubh'})
 -- SyntaxError: Unexpected token, expected "," (1:72)
 
--- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({name[33m:[39m[32m'Shubham Raj Sharma'[39m}[33m,[39m{$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Shubh'[39m})
+-- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({name[33m:[39m[32m'Lakshya Sachin Bhardwaj'[39m}[33m,[39m{$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Lakshya'[39m})
 --  [90m   |[39m                                                                         [31m[1m^[22m[39m[0m
 db.Students.updateOne({name:'Lakshya Sachin Bhardwaj'},{$set:{'name':'Aditya'}})
 {
