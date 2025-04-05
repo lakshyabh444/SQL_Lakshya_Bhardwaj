@@ -6,8 +6,8 @@ public class CRUD_Test {
   public static void main(String[] args){
     CRUD_Test objTest = new CRUD_Test();
 
-    objTest.create_data("1","Shubham","shubham@gmail.com");
-    objTest.create_data("2","Shubham","shubhamraj@gmail.com");
+    objTest.create_data("1","Lakshya","lakshya@gmail.com");
+    objTest.create_data("2","Lakshya","lakshyabhardwaj@gmail.com");
 
   }
 
